@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.976"
+   height="16.976"
+   viewBox="0 0 4.4915664 4.4915667"
+   version="1.1"
+   id="svg18232"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="facebook-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18234"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="23.775084"
+     inkscape:cx="5.6151221"
+     inkscape:cy="10.452119"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     height="16.976px" />
+  <defs
+     id="defs18229">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath289991-4-8-8-1-9-9-8-8-31-7-6-0-4">
+      <path
+         d="M 0,734 H 936 V 0 H 0 Z"
+         id="path289989-3-1-4-1-2-6-6-9-9-3-7-3-4" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 4.3641267,0.77809751 V 3.7135185 c 0,0.3557682 -0.2906811,0.6457876 -0.6472724,0.6457876 H 3.0695744 v -1.64383 H 3.4956 c 0.059999,0 0.1106309,-0.044582 0.1176866,-0.1033052 l 0.043568,-0.3522404 c 0.00446,-0.032895 -0.00595,-0.06691 -0.028252,-0.091626 -0.022379,-0.025756 -0.054126,-0.039967 -0.088267,-0.039967 H 3.0695893 V 1.7173741 c 0,-0.1291529 0.1059097,-0.2348395 0.2353732,-0.2348395 h 0.2353731 c 0.064758,0 0.1176866,-0.052766 0.1176866,-0.1174086 V 0.96825957 c 0,-0.0599129 -0.047063,-0.11041957 -0.1070919,-0.11624732 -0.00669,-0.001494 -0.173002,-0.0152564 -0.3836617,-0.0152564 -0.5178239,0 -0.8037986,0.30763635 -0.8037986,0.86537005 V 2.1283387 H 1.8927237 c -0.064758,0 -0.1176866,0.052766 -0.1176866,0.1174234 v 0.3522554 c 0,0.064603 0.052936,0.117416 0.1176866,0.117416 H 2.36347 V 4.359271 H 0.77469746 c -0.35659133,0 -0.64727243,-0.2900268 -0.64727243,-0.6457951 V 0.77805569 c 0,-0.35576826 0.2906811,-0.64579516 0.64727243,-0.64579516 H 3.7168692 c 0.3565838,0 0.6472724,0.2900269 0.6472724,0.64579516 z"
+       id="path88220"
+       style="display:inline;mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264584" />
+  </g>
+</svg>

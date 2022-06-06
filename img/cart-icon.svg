@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20.5"
+   height="21.756001"
+   viewBox="0 0 5.4239582 5.7562752"
+   version="1.1"
+   id="svg24006"
+   sodipodi:docname="cart-icon.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview24008"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="16"
+     inkscape:cx="13.03125"
+     inkscape:cy="10.96875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs24003" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       fill="#6563ff"
+       d="m 1.9750024,4.7935943 a 0.44202822,0.44202822 0 1 0 0.44204,0.44203 0.44202822,0.44202822 0 0 0 -0.44204,-0.44203 z m 3.09421,-0.88406 h -3.53623 a 0.29468567,0.29468567 0 0 1 0,-0.58937 h 2.50223 a 0.88794629,0.88794629 0 0 0 0.85011,-0.64117 l 0.4672,-1.6353 a 0.29471201,0.29471201 0 0 0 -0.28331,-0.37569994 h -3.61312 a 0.88601905,0.88601905 0 0 0 -0.83033011,-0.58937 h -0.27153 a 0.2946855,0.2946855 0 0 0 0,0.58937 h 0.27153 a 0.29603809,0.29603809 0 0 1 0.28331004,0.21368 l 0.0459,0.16052994 6e-5,10e-4 0.48348007,1.69213 a 0.88407412,0.88407412 0 0 0 0.0946,1.76308 h 3.53623 a 0.2946855,0.2946855 0 0 0 0,-0.58937 z m -0.39067,-2.65217 -0.35987,1.25961 a 0.29603514,0.29603514 0 0 1 -0.28346,0.21382 h -1.98524 l -0.0751,-0.26292 -0.34568,-1.21051 z m -0.34605,3.53623 a 0.44202822,0.44202822 0 1 0 0.44202,0.44203 0.44202822,0.44202822 0 0 0 -0.44202,-0.44203 z"
+       id="path86478"
+       style="display:inline;mix-blend-mode:normal;fill:#191919;fill-opacity:1;stroke-width:0.264583"
+       inkscape:export-filename="D:\DARICK T FISHER\1.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+  </g>
+</svg>

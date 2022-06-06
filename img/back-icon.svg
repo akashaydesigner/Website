@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="23.5"
+   height="21.756001"
+   viewBox="0 0 6.2177081 5.7562752"
+   version="1.1"
+   id="svg24006"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="back-icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview24008"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="22.627417"
+     inkscape:cx="18.185902"
+     inkscape:cy="9.4796503"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     height="21.756px"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-center="true"
+     inkscape:snap-page="true" />
+  <defs
+     id="defs24003" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="path291966-2"
+       transform="translate(0.0800409,-7.5643807e-4)">
+      <path
+         style="color:#000000;fill:#191919;stroke-width:0.529167;-inkscape-stroke:none"
+         d="M 0.29519086,2.8781374 2.7624909,0.23230379 Z m 0,0 H 6.1160209 Z m 0,0 2.46730004,2.645834 z"
+         id="path6009" />
+      <path
+         id="path6011"
+         style="color:#000000;fill:#191919;stroke-width:3.77953;-inkscape-stroke:none"
+         d="M 9.7070312,0.19921875 0.38476562,10.195312 -0.22070312,10.863281 0.38476562,11.560547 9.7070312,21.5625 11.167969,20.197266 3.4179688,11.876953 H 23.113281 V 9.8769531 H 3.4179688 L 11.167969,1.5566406 Z"
+         transform="scale(0.26458333)" />
+    </g>
+  </g>
+</svg>
