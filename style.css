@@ -19,15 +19,46 @@
     src: url(fonts/Poppins-Bold.ttf);
   }
 
-body{
+/* body{
     padding:0 auto;
     margin:0 auto;
     box-sizing: border-box;
-    font-family: 'medium'!important;
+    font-family: 'medium';
+} */
+
+*, *::before, *::after {box-sizing:border-box}
+html, body {padding:0 auto; margin:0 auto; box-sizing:border-box; }
+body {min-height:100%}
+
+.primary-color{ 
+    color:#191919;
 }
+
+.items-heading{
+    color:#191919;
+    position:relative;
+    font-family: 'medium';
+    
+}
+
+.heading-border{
+    position:absolute;
+    border-bottom: 1px solid #191919;
+    width:50%
+}
+
 
 .header{
     background-color: #fafafaff;
+}
+#header{
+    
+        overflow: auto;
+        transition: all 0.15s linear;
+}
+
+#header.active {
+    box-shadow: 0 0 10px rgb(0, 0, 0);   
 }
 
 .margin-x-4{
@@ -44,6 +75,7 @@ body{
 .font-size-18{font-size:18px!important;}
 .font-size-16{font-size:16px!important;}
 .font-size-14{font-size:14px!important;}
+.font-size-12{font-size:13px!important;}
 .font-size-12{font-size:12px!important;}
 .font-size-10{font-size:10px!important;}
 
@@ -56,10 +88,7 @@ body{
 .side-menu-bg{
     height: 100%;
     padding-top: 20px;
-
 }
-
-
 
 .logo-main img{
     width: 71px;
@@ -404,9 +433,13 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
     color: #000000;
   }
 
-  .carousel-img{
+  .main-banner{
       margin-top:91px;
   }
+
+  .margin-t126{
+    margin-top:126px;
+}
   
   .dropdown-container {
     display: none;
@@ -426,7 +459,7 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
 
   *{
     scrollbar-width: auto;
-    scrollbar-color: #9f4fb5 #ffffff;
+    scrollbar-color: #191919 #ffffff;
   }
 
   *::-webkit-scrollbar {
@@ -438,7 +471,7 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #9f4fb5;
+    background-color: #191919ff;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
