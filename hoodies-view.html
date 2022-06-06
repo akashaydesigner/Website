@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>DTF</title>
+</head>
+
+<body>
+    <header>
+        <!-- sidenav -->
+        <div id="col-sidenav" class="  sidenav side-menu side-menu-bg position-fixed zindex-dropdown:1000; w-25"
+            style="z-index:1000;">
+            <div class=" d-flex flex-column custom-menu">
+                <a href="#about" class="menu-item ">
+                    <div> <i class="fa-regular fa-clothes-hanger"></i> <span>ALL</span> </div>
+                </a>
+
+                <button class="dropdown-btn menu-item">
+                    <div> <i class="fa-solid fa-shirt pe-2 font-size-10 "></i> <span>TOPS</span> </div> <img
+                        class="float-end" src="img/dropdown-icon.svg" alt="">
+                </button>
+                <div class="dropdown-container">
+                    <a href="#" class="py-1 menu-dropdown-item">ALL</a>
+                    <a href="#" class="py-1 menu-dropdown-item">HOODIES</a>
+                    <a href="#" class="py-1 menu-dropdown-item">SWEATSHIRTS</a>
+                    <a href="#" class="py-1 menu-dropdown-item">CREW NECKS</a>
+                    <a href="#" class="py-1 menu-dropdown-item">POLO</a>
+                    <a href="#" class="py-1 menu-dropdown-item">POLO SHIRTS</a>
+                    <a href="#" class="py-1 menu-dropdown-item">LONG SLEEVE TEES</a>
+                    <a href="#" class="py-1 menu-dropdown-item">TEES</a>
+                </div>
+                <button class="dropdown-btn menu-item">
+                    <div> <i class="fa-brands fa-redhat pe-2"></i><span>HATS</span></div>
+                    <img src="img/dropdown-icon.svg" alt="">
+                </button>
+                <div class="dropdown-container">
+                    <a href="#" class="py-1 menu-dropdown-item">ALL</a>
+                    <a href="#" class="py-1 menu-dropdown-item">BASEBALL CAP</a>
+                    <a href="#" class="py-1 menu-dropdown-item">SNAPBACK CAP</a>
+                </div>
+                <a href="#contact" class="menu-item">
+                    <div><i class="fa-solid fa-socks pe-2"></i><span>ACCESSORIES</span></div>
+                </a>
+                <a href="#contact" class="menu-item">WOMEN'S COLLECTIONS</a>
+            </div>
+        </div>
+
+        <!-- Header -->
+
+        <nav id="header" class=" header navbar shadow-sm fixed-top navbar-expand-lg navbar-light  ">
+            <div class="container-fluid margin-x-4 ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <img class="hand pe-5" onclick="sidenavopener()" id="iconChange" src="img/menu-icon.svg" alt="">
+                    <a class=" logo-main navbar-brand" href="index.html"> <img src="img\logo.svg" alt="#"></a>
+                    <form class="d-flex ms-auto position-relative outline-none">
+                        <input class=" search-bar" type="search" placeholder="Search" aria-label="Search">
+                        <button class=" search-bt position-absolute" type="submit"><img src="img/search-icon.svg"
+                                alt=""></button>
+                    </form>
+                    <div class="d-flex ">
+                        <div class="heart-icon hand ms-4 my-auto cursor-pointer "><img src="img/heart-icon.svg" alt="#">
+                        </div>
+                        <div class="cart-icon hand ms-4 my-auto"><img src="img/cart-icon.svg" alt="#"></div>
+                        <div class="user-img hand ms-4 my-auto" style="height:40px; width:40px;"> </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- product view -->
+
+    <div class="container margin-t126  font-semibold"> <span class="items-heading"> Hoodies / (F.A.T) Blue Hoddie <div
+                class="heading-border"> </div></span> </div>
+
+    <div class="container mt-5 border d-flex flex-row mx-auto">
+        <div class="left-content w-50 d-flex flex-row justify-content-center">
+            <div class="inner-left-content d-flex flex-column">
+                <div class=" image-switch-card border"></div>
+                <div class=" image-switch-card border"></div>
+                <div class=" image-switch-card border"></div>
+                <div class=" image-switch-card border"></div>
+                <div class=" image-switch-card border"></div>
+            </div>
+            <div calss="inner-right-content">
+                <div class="ms-3">
+                    <img class="product-main-view-card" src="img/blue-hoodie.png" alt="">
+                    <div>
+                        <p class="pdt--dtl-head">Sizes:</p>
+                        <div class=" d-flex justify-content-between mt-3">
+                            <button id="" class="size-palette"> </button>
+                            <button id="" class="size-palette"> </button>
+                            <button id="" class="size-palette"> </button>
+                            <button id="" class="size-palette"> </button>
+                            <button id="" class="size-palette"> </button>
+                            <button id="" class="size-palette"> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-content w-50">
+            <div class="inner-left-content d-flex flex-column justify-content-between">
+                <span class="pdt-dtl-head">(F.A.T) Blue Hoddie</span>
+                <span ><span class="pdt-dtl-head">31.00</span>  <span> <del>$45.00</del> 15% Off Inclusive of all taxes</span></span>
+                <hr>
+                <span class="pdt-dtl-head" >Color</span>
+                <div class="mb-3">
+                    <button id="color-palette-1" class="color-palette"> </button>
+                    <button id="color-palette-2" class="color-palette"> </button>
+                    <button id="color-palette-3" class="color-palette"> </button>
+                    <button id="color-palette-4" class="color-palette"> </button>
+                    <button id="color-palette-5" class="color-palette"> </button>
+                    <button id="color-palette-6" class="color-palette"> </button>
+                </div>
+                <hr>
+                <span class="pdt-dtl-head" >Product Details</span>
+                <p class="product-detail"> Name: (F.A.T) Blue Hoddie </p>
+                <p class="product-detail"> Name: (F.A.T) Blue Hoddie </p>
+                <p class="product-detail"> Name: (F.A.T) Blue Hoddie </p>
+                <p class="product-detail"> Name: (F.A.T) Blue Hoddie </p>
+                <a class="pdt--dtl-head text-decoration-none" href="">
+                    <p > Name: (F.A.T) Blue Hoddie </p>
+                </a>
+                <p> Quuantity: </p>
+                    <div class="pricing">
+                         <div class="inputNumber">
+                           <div class="minus">-</div>
+                           <div class="number">1</div>
+                           <div class="plus">+</div>
+                         </div>
+                       </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- hoodies item -->
+    <div class="container margin-t126  font-semibold"> <span class="items-heading"> Hoodies <div class="heading-border">
+            </div></span> </div>
+    <div class="card-group container mt-5">
+
+        <div class="col">
+            <div class="card h-100  mx-3 text-center">
+                <div class=" hot-sale-items d-flex justify-content-center align-items-center card-bg p-5 ">
+                    <img id="poloshirt" src="img/blue-hoodie.png" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body hot-sale-contant">
+                    <div class="mb-3">
+                        <button id="color-palette-1" class="color-palette" onclick="colorchange1()"> </button>
+                        <button id="color-palette-2" class="color-palette" onclick="colorchange2()"> </button>
+                        <button id="color-palette-3" class="color-palette" onclick="colorchange3()"> </button>
+                        <button id="color-palette-4" class="color-palette" onclick="colorchange4()"> </button>
+                        <button id="color-palette-5" class="color-palette" onclick="colorchange5()"> </button>
+                        <button id="color-palette-6" class="color-palette" onclick="colorchange6()"> </button>
+                    </div>
+                    <h6 class="hot-sale-item-name">F.A.T White Polo Shirt</h6>
+                    <p class="hot-sale-item-price">$12.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100  mx-3 text-center">
+                <div class=" hot-sale-items d-flex justify-content-center align-items-center card-bg p-5 ">
+                    <img src="img/gray-hoodies.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <button id="color-palette-1" class="color-palette"> </button>
+                        <button id="color-palette-2" class="color-palette"> </button>
+                        <button id="color-palette-3" class="color-palette"> </button>
+                        <button id="color-palette-4" class="color-palette"> </button>
+                        <button id="color-palette-5" class="color-palette"> </button>
+                        <button id="color-palette-6" class="color-palette"> </button>
+                    </div>
+                    <h6 class="hot-sale-item-name">F.A.T hoodie</h6>
+                    <p class="hot-sale-item-price">$12.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100  mx-3 text-center">
+                <div class=" hot-sale-items d-flex justify-content-center align-items-center card-bg p-5 ">
+                    <img src="img/coll-hoodies.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <button id="color-palette-1" class="color-palette"> </button>
+                        <button id="color-palette-2" class="color-palette"> </button>
+                        <button id="color-palette-3" class="color-palette"> </button>
+                        <button id="color-palette-4" class="color-palette"> </button>
+                        <button id="color-palette-5" class="color-palette"> </button>
+                        <button id="color-palette-6" class="color-palette"> </button>
+                    </div>
+                    <h6 class="hot-sale-item-name">F.A.T Black Polo</h6>
+                    <p class="hot-sale-item-price">$12.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mx-3 text-center">
+                <div class=" hot-sale-items d-flex justify-content-center align-items-center card-bg p-5 ">
+                    <img src="img/green-hoodie.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <button id="color-palette-1" class="color-palette"> </button>
+                        <button id="color-palette-2" class="color-palette"> </button>
+                        <button id="color-palette-3" class="color-palette"> </button>
+                        <button id="color-palette-4" class="color-palette"> </button>
+                        <button id="color-palette-5" class="color-palette"> </button>
+                        <button id="color-palette-6" class="color-palette"> </button>
+                    </div>
+                    <h6 class="hot-sale-item-name">F.A.T Face Mask</h6>
+                    <p class="hot-sale-item-price">$12.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fotter -->
+
+    <footer class=" footer mt-5">
+        <div class=" footer-content d-flex justify-content-between flex-row py-5 px-5">
+            <div class=" d-flex align-items-center justify-content-center border-right">
+                <img class="footer-logo" src="img/logo.svg" alt="">
+            </div>
+            <div class="vertical-line"></div>
+            <div class="  d-flex align-items-center justify-content-center flex-column border-right">
+                <span class="social-icons">
+                    <img class="" src="img/facebook-icon.svg" alt="">
+                </span>
+                <span class="social-icons">
+                    <img class="" src="img/instagram-icon.svg" alt="">
+                </span>
+                <span class="social-icons">
+                    <img class="" src="img/twiter-icon.svg" alt="">
+                </span>
+            </div>
+            <div class="vertical-line"></div>
+            <div class=" border-right d-flex  flex-column ">
+                <ul>
+                    <div class="font-size-16 font-normal">
+                        Informations
+                    </div>
+                    <li class="font-size-14 font-light pt-1">
+                        Refund Policy
+                    </li>
+                    <li class="font-size-14 font-light pt-1">
+                        Privacy Policy
+                    </li>
+                    <li class="font-size-14 font-light pt-1">
+                        Term & Conditions
+                    </li>
+                    <li class="font-size-14 font-light pt-1">
+                        Support
+                    </li>
+                    <li class="font-size-14 font-light pt-1">
+                        Contact Us
+                    </li>
+                </ul>
+            </div>
+            <div class="vertical-line"></div>
+            <div class=" border-right ">
+                <ul>
+                    <div class="font-size-16 font-normal">
+                        Address
+                    </div>
+                    <li class="font-size-14 font-light pt-1 pb-2 border-bottom-secondary">
+                        86 Cunnery Rd, Manaton,
+                        United Kingdom, TQ13 5GP
+                    </li>
+                    <li class="font-size-16 font-normal mt-3">
+                        Contact
+                    </li>
+                    <li class="font-size-14 font-light pt-1">
+                        Phone number: 078 6827 2117
+                </ul>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="">
+                <p class="font-size-16 font-normal">We Accept</p>
+                <div class=" row ">
+                    <img class=" pay-meth-card col-4 " src="img/pay-meth-1.png" alt="">
+                    <img class=" pay-meth-card col-4 " src="img/pay-meth-2.png" alt="">
+                    <img class=" pay-meth-card col-4 " src="img/pay-meth-3.png" alt="">
+                </div>
+                <div class=" row ">
+                    <img class=" pay-meth-card col-4 " src="img/pay-meth-4.png" alt="">
+                    <img class=" pay-meth-card col-4 " src="img/pay-meth-5.png" alt="">
+                    <img class=" pay-meth-card col-4 " src="img/pay-meth-6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center text-white">
+            <hr>
+            <p class="font-size-10 font-light pb-4 mb-0">Copyright © 2022 F.A.T. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -132,6 +132,10 @@ body {min-height:100%}
     cursor: pointer;
 }
 
+#col-sidenav{
+    display: none;
+}
+
 
 
 
@@ -450,7 +454,87 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
     float: right;
     padding-right: 20px;
   }
+
+  /* product view ----------------------------------------------------------------------- */
+
+  .image-switch-card{
+      height: 50px;
+      width: 50px;
+      background-color: rgb(201, 201, 201);
+      margin:0 0 40% 0
+  }
+
+  .product-main-view-card{
+      height:100%;
+      width:100%;
+      padding:  40px 60px 40px 60px;
+      background-color:rgb(209, 209, 209);
+      border: 1px solid lightgray;
+  }
+
+  .size-palette{
+    height:40px;
+    width:40px;
+    border: 1px solid#ffffffff;
+    border-radius:2px;
+}
+
+.pdt-dtl-head{
+    font-family: 'medium' !important;
+    font-size:20px;
+    color: #0160a2;
+    margin-bottom: 10px;
+    
+}
+
+.product-detail{
+    font-family:'normal';
+    font-size:16px;
+    margin-bottom: 5px;
+}
+
+.pdt--dtl-head{
+    font-family: 'normal' !important;
+    font-size:16px;
+    color: #0160a2;
+    margin-bottom: 10px;
+}
+
+.inputNumber {
+    width: 90px;
+    height: 25px;
+    border: 1px solid #e4e4e4;
+    line-height: auto;
+    font-size: 14px;
+    font-weight: bold;
+  }
   
+  .minus {
+    float: left;
+    text-align: center;
+    width: 30px;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .number {
+    float: left;
+    text-align: center;
+    width: 30px;
+    height: 100%;
+    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+  }
+  
+  .plus {
+    float: left;
+    text-align: center;
+    width: 28px;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+/* media ----------------------------------------------------------------------- */
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}

@@ -47,11 +47,12 @@ for (i = 0; i < dropdown.length; i++) {
 function sidenavopener()
 {
     var a = document.getElementById("col-sidenav");
-        if (a.style.display ==="none") {
-            a.style.display = "block";
+        if (a.style.display ==="block") {
+            a.style.display = "none";
         } else{
-            a.style.display ="none"
+            a.style.display ="block"
         }
+        
         var Image_Id = document.getElementById("iconChange");
         if (Image_Id.src.match("img/menu-icon.svg")) {
             Image_Id.src = "img/back-icon.svg";
@@ -63,7 +64,6 @@ function sidenavopener()
     
 
     }
-
     
 
 //     // window.addEventListener('mouseup',function(event){
