@@ -37,7 +37,9 @@ body {min-height:100%}
 .items-heading{
     color:#191919;
     position:relative;
-    font-family: 'medium';
+    font-family: 'normal';
+    font-size: 20px;
+
     
 }
 
@@ -110,7 +112,7 @@ body {min-height:100%}
     border-top: 1px solid transparent!important;
     border-right: 1px solid transparent!important;
     border-left: 1px solid transparent !important;
-    outline: 1px solid transparent !important;
+    outline: none !important;
     
 }
 
@@ -455,33 +457,42 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
     padding-right: 20px;
   }
 
-  /* product view ----------------------------------------------------------------------- */
+  /* product view ----------------------------------------------------------------------------------------- */
 
   .image-switch-card{
-      height: 50px;
-      width: 50px;
-      background-color: rgb(201, 201, 201);
-      margin:0 0 40% 0
+    height: 64px;
+    width: 64px;
+    border: 1px solid #c0c0c0ff;
+    background-color:#f6f6f6ff;
+    margin: 0 0 39% 0;
   }
 
   .product-main-view-card{
       height:100%;
       width:100%;
       padding:  40px 60px 40px 60px;
-      background-color:rgb(209, 209, 209);
-      border: 1px solid lightgray;
+      border: 1px solid #c0c0c0ff;
+      background-color:#f6f6f6ff;
   }
 
   .size-palette{
-    height:40px;
-    width:40px;
-    border: 1px solid#ffffffff;
-    border-radius:2px;
+    height:50px;
+    width:50px;
+    font-size: 14px;
+    font-family: 'normal';
+    border: 1px solid #c0c0c0ff;
+    background-color:#f6f6f6ff;
+}
+
+
+#size-palette:focus{
+    background-color: #0160a2;
+    color: #ffff;
 }
 
 .pdt-dtl-head{
-    font-family: 'medium' !important;
-    font-size:20px;
+    font-family: 'normal' !important;
+    font-size: 26px;
     color: #0160a2;
     margin-bottom: 10px;
     
@@ -497,42 +508,84 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
     font-family: 'normal' !important;
     font-size:16px;
     color: #0160a2;
-    margin-bottom: 10px;
+    margin:0px;
+    padding-bottom: 15px;
+}
+
+.cus-btn{
+    height:50px;
+    width: fit-content;
+    border: none;
+    background-color:#0160a2ff;
+    color: white;
+    padding:0 20px 0 20px;
+    font-size: 14px;
+    font-family: 'light';
+
+}
+
+.cus-btn img{
+    width: 14px;
 }
 
 .inputNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90px;
-    height: 25px;
-    border: 1px solid #e4e4e4;
+    height: 50px;
+    border: 1px solid #c0c0c0ff;
+    background-color:#f6f6f6ff;
     line-height: auto;
     font-size: 14px;
     font-weight: bold;
+    margin-right: 20px;
+    
   }
   
   .minus {
     float: left;
     text-align: center;
-    width: 30px;
-    height: 100%;
     cursor: pointer;
+    border: 1px solid transparent;
+    background-color: transparent;
   }
   
   .number {
     float: left;
     text-align: center;
     width: 30px;
-    height: 100%;
-    border-right: 1px solid #e4e4e4;
-    border-left: 1px solid #e4e4e4;
+    font-family:'light';
+    font-size:'light';
+    border: none;
+    outline: none !important;
+    background-color: transparent;
+    
+    
+    
   }
   
   .plus {
+    border: 1px solid transparent;
     float: left;
     text-align: center;
-    width: 28px;
-    height: 100%;
     cursor: pointer;
+    background-color: transparent;
   }
+
+
+  input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+  
   
 /* media ----------------------------------------------------------------------- */
   
