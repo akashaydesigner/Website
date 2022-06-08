@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>DTF</title>
+</head>
+
+<body>
+    <header>
+        <!-- sidenav -->
+        <div id="col-sidenav" class=" sidenav  side-menu side-menu-bg position-fixed zindex-dropdown:1000; w-25"
+            style="z-index:1000;">
+            <div class=" d-flex flex-column custom-menu">
+                <a href="#about" class="menu-item ">
+                    <div> <i class="fa-regular fa-clothes-hanger"></i> <span>ALL</span> </div>
+                </a>
+
+                <button class="dropdown-btn menu-item pb-0">
+                    <div><span>TOPS</span> </div> <img class="float-end" src="img/dropdown-icon.svg" alt="">
+                </button>
+                <div class="dropdown-container">
+                    <a href="#" class="menu-dropdown-item">ALL</a>
+                    <a href="hoodies-page.html" class="menu-dropdown-item">HOODIES</a>
+                    <a href="#" class="menu-dropdown-item">SWEATSHIRTS</a>
+                    <a href="#" class="menu-dropdown-item">CREW NECKS</a>
+                    <a href="#" class="menu-dropdown-item">POLO</a>
+                    <a href="#" class="menu-dropdown-item">POLO SHIRTS</a>
+                    <a href="#" class="menu-dropdown-item">LONG SLEEVE TEES</a>
+                    <a href="#" class="menu-dropdown-item">TEES</a>
+                </div>
+                <button class="dropdown-btn menu-item pb-0">
+                    <div><span>HATS</span></div>
+                    <img src="img/dropdown-icon.svg" alt="">
+                </button>
+                <div class="dropdown-container">
+                    <a href="#" class=" menu-dropdown-item">ALL</a>
+                    <a href="#" class=" menu-dropdown-item">BASEBALL CAP</a>
+                    <a href="#" class=" menu-dropdown-item">SNAPBACK CAP</a>
+                </div>
+                <a href="#contact" class="menu-item">
+                    <div><span>ACCESSORIES</span></div>
+                </a>
+                <a href="#contact" class="menu-item">WOMEN'S COLLECTIONS</a>
+                <a href="#contact" class="menu-item">OUR GALLERY</a>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <nav class=" header navbar shadow-sm fixed-top navbar-expand-lg navbar-light  ">
+            <div class="container-fluid margin-x-4 ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <img class="hand pe-5" onclick="sidenavopener()" id="iconChange" src="img/menu-icon.svg" alt="">
+                    <a class=" logo-main navbar-brand" href="#"> <img src="img\logo.svg" alt="#"></a>
+                    <form class="d-flex ms-auto position-relative outline-none">
+                        <input class=" search-bar" type="search" placeholder="Search" aria-label="Search">
+                        <button class=" search-bt position-absolute" type="submit"><img src="img/search-icon.svg"
+                                alt=""></button>
+                    </form>
+                    <div class="d-flex ">
+                        <div class="heart-icon hand ms-4 my-auto cursor-pointer "><img src="img/heart-icon.svg" alt="#">
+                        </div>
+                        <div class="cart-icon hand ms-4 my-auto"><img src="img/cart-icon.svg" alt="#"></div>
+                        <div class="user-img hand ms-4 my-auto" style="height:40px; width:40px;"> </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- (F. A. T) heading -->
+    <div class="container-fluid text-center my-5">
+        <h3><span class="font-bold"> FAITHFUL ACCOUNTABLE TEACHABLE </span> <span class="font-light">(F.A.T)</span></h3>
+    </div>
+
+    <!-- second banner -->
+
+    <div class="container d-flex flex-row my-5 position-relative ">
+        <div class="banner-2">
+            <img src="img/banner-2.png" alt="">
+        </div>
+        <div class="banner-2-content d-flex align-item-center my-auto ">
+            <p class=""><b> <span class="font-bold font-size-20"> FAITHFUL ACCOUNTABLE TEACHABLE</span> </b> <span
+                    class="font-light font-size-16"> is
+                    simply dummy text of the printing and typesetting industry.
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in
+                    reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat.</span></p>
+        </div>
+    </div>
+
+    <!-- hot items -->
+
+    <div class="container d-flex justify-content-between align-items-end "> <span class="items-heading"> Our Gallery <div class="heading-border"> </div></span> 
+    <span class="items-heading font-size-12"> <a class="text-decoration-none tx-clr font-medium" href="">View More</a></span>    
+</div>
+    
+    <div class="card-group container mt-5">
+
+        <div class="card-group container my-2">
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-1.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-2.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-3.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-4.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card-group container my-2">
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-5.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-6.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-7.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 mx-3 text-center">
+                    <div class=" card-items card-bg  ">
+                        <a href=""><img class="img-fluid" id="" src="img/gallery-img/gel-8.jpg"  alt="..."></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- our collection cards -->
+
+    <div class="container-flued text-center mt-5 "> <span class="items-heading center-items-heading"> Our Collocations</span></div>
+
+    <div class="card-group collection-cards container-flued m-5 ">
+
+        <div class="card coll-hoodies coll-card mx-3 d-flex justify-content-center  p-5">
+            <img src="img/coll-hoodies.png" class="w-auto" alt="#">
+            <div class="overlay">
+                <span class=" coll-card-text-over"> Hoodies </span>
+            </div>
+        </div>
+
+        <div class="card coll-tees coll-card mx-3 d-flex justify-content-center p-5">
+            <img src="img/coll-tees.png" class="w-auto" alt="#">
+            <div class="overlay">
+                <span class=" coll-card-text-over"> Tees </span>
+            </div>
+        </div>
+
+        <div class="card coll-polo coll-card mx-3 d-flex justify-content-center  p-5">
+            <img src="img/coll-polo.png" class="w-auto" alt="#">
+            <div class="overlay">
+                <span class=" coll-card-text-over"> Polo </span>
+            </div>
+        </div>
+
+        <div class="card coll-hats coll-card mx-3 d-flex justify-content-center  p-5">
+            <img src="img/coll-hats.png" class="w-auto" alt="#">
+            <div class="overlay">
+                <span class=" coll-card-text-over"> Hats </span>
+            </div>
+        </div>
+
+        <div class="card coll-accessories coll-card mx-3 d-flex justify-content-center  p-5">
+            <img class="w-auto" src="img/coll-accessories.png" alt="#">
+            <div class="overlay">
+                <span class=" coll-card-text-over"> Accessories </span>
+            </div>
+        </div>
+
+    </div>
+        <!-- fotter -->
+
+        <footer class=" footer mt-5">
+            <div class=" footer-content d-flex justify-content-between flex-row py-5 px-5">
+                <div class=" d-flex align-items-center justify-content-center border-right">
+                    <img class="footer-logo" src="img/logo.svg" alt="">
+                </div>
+                <div class="vertical-line"></div>
+                <div class="  d-flex align-items-center justify-content-center flex-column border-right">
+                    <span class="social-icons">
+                        <img class="" src="img/facebook-icon.svg" alt="">
+                    </span>
+                    <span class="social-icons">
+                        <img class="" src="img/instagram-icon.svg" alt="">
+                    </span>
+                    <span class="social-icons">
+                        <img class="" src="img/twiter-icon.svg" alt="">
+                    </span>
+                </div>
+                <div class="vertical-line"></div>
+                <div class=" border-right d-flex  flex-column ">
+                    <ul>
+                        <div class="font-size-16 font-normal">
+                            Informations
+                        </div>
+                        <li class="font-size-14 font-light pt-1">
+                            Refund Policy
+                        </li>
+                        <li class="font-size-14 font-light pt-1">
+                            Privacy Policy
+                        </li>
+                        <li class="font-size-14 font-light pt-1">
+                            Term & Conditions
+                        </li>
+                        <li class="font-size-14 font-light pt-1">
+                            Support
+                        </li>
+                        <li class="font-size-14 font-light pt-1">
+                            Contact Us
+                        </li>
+                    </ul>
+                </div>
+                <div class="vertical-line"></div>
+                <div class=" border-right ">
+                    <ul>
+                        <div class="font-size-16 font-normal">
+                            Address
+                        </div>
+                        <li class="font-size-14 font-light pt-1 pb-2 border-bottom-secondary">
+                            86 Cunnery Rd, Manaton,
+                            United Kingdom, TQ13 5GP
+                        </li>
+                        <li class="font-size-16 font-normal mt-3">
+                            Contact
+                        </li>
+                        <li class="font-size-14 font-light pt-1">
+                            Phone number: 078 6827 2117
+                    </ul>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="">
+                    <p class="font-size-16 font-normal">We Accept</p>
+                    <div class=" row ">
+                        <img class=" pay-meth-card col-4 " src="img/pay-meth-1.png" alt="">
+                        <img class=" pay-meth-card col-4 " src="img/pay-meth-2.png" alt="">
+                        <img class=" pay-meth-card col-4 " src="img/pay-meth-3.png" alt="">
+                    </div>
+                    <div class=" row ">
+                        <img class=" pay-meth-card col-4 " src="img/pay-meth-4.png" alt="">
+                        <img class=" pay-meth-card col-4 " src="img/pay-meth-5.png" alt="">
+                        <img class=" pay-meth-card col-4 " src="img/pay-meth-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid text-center text-white">
+                <hr>
+                <p class="font-size-10 font-light pb-4 mb-0">Copyright © 2022 F.A.T. All Rights Reserved</p>
+            </div>
+        </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

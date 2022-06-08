@@ -49,6 +49,12 @@ body {min-height:100%}
     width:50%
 }
 
+.center-items-heading{
+    /* margin-top: 20% !important; */
+    padding: 0% 1%;
+    border-bottom: 1px solid #191919;
+}
+
 
 .header{
     background-color: #fafafaff;
@@ -86,6 +92,10 @@ body {min-height:100%}
 .font-medium{font-family: 'medium'!important;}
 .font-semibold{font-family: 'semibold'!important;}
 .font-bold{font-family: 'bold'!important;}
+
+.tx-clr{
+    color: #191919ff !important;
+}
 
 .d-flex-center{
     display: flex;
@@ -258,9 +268,24 @@ body {min-height:100%}
     top:20%;
 }
 
-.hot-sale-items{
-    height: 253px;
+.card-items{
+    height: 100%;
     background-color:#f6f6f6ff;
+    position: relative;
+    overflow: hidden
+}
+
+.card-items img{
+    transition: 0.4s all ease-in-out;
+}
+
+.card-items:hover img{
+    transform: scale(1.1);
+}
+
+.img-fluid{
+    width: auto !important;
+    height: 100% !important; 
 }
 
 .hot-sale-item-name{
@@ -414,10 +439,13 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
       justify-content: space-between !important;
       font-size: 14px !important; 
       background-color: #fafafaff !important;
-      
       margin-bottom: 2px;
-      /* line-height: 10px; */
   }
+ 
+  .menu-item:hover{
+    background-color: #efefefff !important;
+}
+
   .menu-dropdown-item{
     padding-left: 25%;
     height: 40px;
