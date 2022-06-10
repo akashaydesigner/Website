@@ -44,6 +44,7 @@ body {min-height:100%}
 }
 
 .heading-border{
+    display: none;
     position:absolute;
     border-bottom: 1px solid #a8a8a8;
     width:50%
@@ -171,9 +172,10 @@ body {min-height:100%}
 
 
 .carousel-caption{
-    left: 52% !important;
+    position: absolute;
+    left: 47% !important;
     right: 0% !important;
-    bottom: 30% !important;
+    bottom: 29% !important;
 }
 
 
@@ -262,14 +264,13 @@ body {min-height:100%}
 .banner-2-content{
     background-color: #ffff;
     padding:20px;
-    max-width:45vw;
+    max-width:50vw;
     height: max-content;
+    position: absolute;
+    right: 0;
     -webkit-box-shadow: 0px 0px 14px 3px rgba(208,208,208,1);
     -moz-box-shadow: 0px 0px 14px 3px rgba(208,208,208,1);
     box-shadow: 0px 0px 14px 3px rgba(208,208,208,1);
-    position: absolute;
-    right: 0%;
-    top:20%;
 }
 
 .card-items{
@@ -559,7 +560,19 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
     padding:0 20px 0 20px;
     font-size: 14px;
     font-family: 'light';
+    transition: 200ms ease-in-out;
 }
+
+.cus-btn:hover{
+    
+    background-color:rgb(0, 76, 130);
+    -webkit-box-shadow: 0px 5px 29px -8px rgba(1,96,162,0.55);
+    -moz-box-shadow: 0px 5px 29px -8px rgba(1,96,162,0.55);
+    box-shadow: 0px 5px 29px -8px rgba(1,96,162,0.55);  
+    color: white;
+    font-size: 14px;
+}
+
 .cus-btn-gray{
     height:50px;
     max-width: 200px !important;
@@ -570,6 +583,17 @@ box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.23);
     padding:0 20px 0 20px;
     font-size: 14px;
     font-family: 'light';
+    transition: 200ms ease-in-out;
+}
+
+.cus-btn-gray:hover{
+    
+    background-color:rgb(139, 139, 139);
+    -webkit-box-shadow: 0px 9px 29px -1px rgba(169,169,169,0.21);
+    -moz-box-shadow: 0px 9px 29px -1px rgba(169,169,169,0.21);
+    box-shadow: 0px 9px 29px -1px rgba(169,169,169,0.21); 
+    color: white;
+    font-size: 14px;
 }
 
 

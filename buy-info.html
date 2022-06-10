@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <title>DTF</title>
@@ -16,42 +17,42 @@
     <header>
 
         <!-- sidenav -->
-        <div id="col-sidenav" class="  sidenav side-menu side-menu-bg position-fixed zindex-dropdown:1000; w-25"
-            style="z-index:1000;">
-            <div class=" d-flex flex-column custom-menu">
-                <a href="#about" class="menu-item ">
-                    <div> <i class="fa-regular fa-clothes-hanger"></i> <span>ALL</span> </div>
-                </a>
+        <div id="col-sidenav" class=" sidenav  side-menu side-menu-bg position-fixed zindex-dropdown:1000; w-25"
+      style="z-index:1000;">
+      <div class=" d-flex flex-column custom-menu">
+        <a href="#about" class="menu-item ">
+          <div> <i class="fa-regular fa-clothes-hanger"></i> <span>ALL</span> </div>
+        </a>
 
-                <button class="dropdown-btn menu-item">
-                    <div> <i class="fa-solid fa-shirt pe-2 font-size-10 "></i> <span>TOPS</span> </div> <img
-                        class="float-end" src="img/dropdown-icon.svg" alt="">
-                </button>
-                <div class="dropdown-container">
-                    <a href="#" class="py-1 menu-dropdown-item">ALL</a>
-                    <a href="hoodies-page.html" class="menu-dropdown-item">HOODIES</a>
-                    <a href="#" class="py-1 menu-dropdown-item">SWEATSHIRTS</a>
-                    <a href="#" class="py-1 menu-dropdown-item">CREW NECKS</a>
-                    <a href="#" class="py-1 menu-dropdown-item">POLO</a>
-                    <a href="#" class="py-1 menu-dropdown-item">POLO SHIRTS</a>
-                    <a href="#" class="py-1 menu-dropdown-item">LONG SLEEVE TEES</a>
-                    <a href="#" class="py-1 menu-dropdown-item">TEES</a>
-                </div>
-                <button class="dropdown-btn menu-item">
-                    <div> <i class="fa-brands fa-redhat pe-2"></i><span>HATS</span></div>
-                    <img src="img/dropdown-icon.svg" alt="">
-                </button>
-                <div class="dropdown-container">
-                    <a href="#" class="py-1 menu-dropdown-item">ALL</a>
-                    <a href="#" class="py-1 menu-dropdown-item">BASEBALL CAP</a>
-                    <a href="#" class="py-1 menu-dropdown-item">SNAPBACK CAP</a>
-                </div>
-                <a href="#contact" class="menu-item">
-                    <div><i class="fa-solid fa-socks pe-2"></i><span>ACCESSORIES</span></div>
-                </a>
-                <a href="#contact" class="menu-item">WOMEN'S COLLECTIONS</a>
-            </div>
+        <button class="dropdown-btn menu-item pb-0">
+          <div><span>TOPS</span> </div> <img class="float-end" src="img/dropdown-icon.svg" alt="">
+        </button>
+        <div class="dropdown-container">
+          <a href="#" class="menu-dropdown-item">ALL</a>
+          <a href="hoodies-page.html" class="menu-dropdown-item">HOODIES</a>
+          <a href="#" class="menu-dropdown-item">SWEATSHIRTS</a>
+          <a href="#" class="menu-dropdown-item">CREW NECKS</a>
+          <a href="#" class="menu-dropdown-item">POLO</a>
+          <a href="#" class="menu-dropdown-item">POLO SHIRTS</a>
+          <a href="#" class="menu-dropdown-item">LONG SLEEVE TEES</a>
+          <a href="#" class="menu-dropdown-item">TEES</a>
         </div>
+        <button class="dropdown-btn menu-item pb-0">
+          <div><span>HATS</span></div>
+          <img src="img/dropdown-icon.svg" alt="">
+        </button>
+        <div class="dropdown-container">
+          <a href="3" class=" menu-dropdown-item">ALL</a>
+          <a href="#" class=" menu-dropdown-item">BASEBALL CAP</a>
+          <a href="#" class=" menu-dropdown-item">SNAPBACK CAP</a>
+        </div>
+        <a href="#" class="menu-item">
+          <div><span>ACCESSORIES</span></div>
+        </a>
+        <a href="#" class="menu-item">WOMEN'S COLLECTIONS</a>
+        <a href="our-gallery.html" class="menu-item">OUR GALLERY</a>
+      </div>
+    </div>
 
         <!-- Header -->
 
@@ -225,7 +226,7 @@
                 </div>
 
             </div>
-            <div class="btn-container d-flex justify-content-center ">
+            <div class="btn-container mt-4 d-flex justify-content-center ">
                 <div class="pd-10">
                     <a href="my-cart.html"><button class="cus-btn-gray  ">Return to cart</button></a>
                 </div>
@@ -403,8 +404,11 @@
 
 
 
-    <script src="custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+<script src="custom.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>AOS.init();</script>
 
 </body>
 

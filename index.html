@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
   <title>DTF</title>
@@ -14,7 +15,8 @@
 
 <body>
   <header>
-    <!-- sidenav -->
+    <!-- sidenav menu -->
+
     <div id="col-sidenav" class=" sidenav  side-menu side-menu-bg position-fixed zindex-dropdown:1000; w-25"
       style="z-index:1000;">
       <div class=" d-flex flex-column custom-menu">
@@ -53,6 +55,7 @@
     </div>
 
     <!-- Header -->
+
     <nav class=" header navbar shadow-sm fixed-top navbar-expand-lg navbar-light  ">
       <div class="container-fluid margin-x-4 ">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
@@ -68,53 +71,38 @@
           </form>
           <div class="d-flex ">
             <div class="heart-icon hand ms-4 my-auto cursor-pointer "><img src="img/heart-icon.svg" alt="#"></div>
-            <div class="cart-icon hand ms-4 my-auto"><a href="my-cart.html"><img src="img/cart-icon.svg" alt="cart-icon"></a></div>
+            <div class="cart-icon hand ms-4 my-auto"><a href="my-cart.html"><img src="img/cart-icon.svg"
+                  alt="cart-icon"></a></div>
             <div class="user-img hand ms-4 my-auto" style="height:40px; width:40px;"> </div>
           </div>
         </div>
       </div>
     </nav>
-    <div id="carouselExampleCaptions " class="carousel slide main-banner " data-bs-ride="carousel">
-      <!-- <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div> -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/banner.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block text-start">
-            <h1 class="banner-text"> <span class="font-light">Living To</span> <br>
-              <span class="font-bold">Make A Difference.</span>
-            </h1>
-            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+    <!-- banner -->
+
+    <section class=" banner-section ">
+      <div id="carouselExampleCaptions " class="carousel slide main-banner " data-bs-ride="carousel">
+        <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active position-relative w-100 h-auto">
+            <div>
+              <img src="img/banner.png" class="w-100" alt="...">
+            </div>
+            <div class="carousel-caption text-start">
+              <h1 class="banner-text">
+                <span class="font-light">Living To</span> <br>
+                <span class="font-bold">Make A Difference.</span>
+              </h1>
+            </div>
           </div>
         </div>
-        <!-- <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div> -->
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button> -->
       </div>
-    </div>
+    </section>
+
   </header>
 
   <!-- (F. A. T) heading -->
@@ -166,17 +154,20 @@
 
   <!-- second banner -->
 
-  <div class="container d-flex flex-row my-5 position-relative ">
-    <div class="banner-2">
-      <img src="img/banner-2.png" alt="">
-    </div>
-    <div class="banner-2-content d-flex align-item-center my-auto ">
-      <p class=""><b> <span class="font-bold font-size-20"> FAITHFUL ACCOUNTABLE TEACHABLE</span> </b> <span
-          class="font-light font-size-16"> is
-          simply dummy text of the printing and typesetting industry.
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat.</span></p>
+  <div class="container-fluid">
+    <div class="container d-flex flex-row my-5 align-items-center position-relative ">
+      <div class="banner-2" data-aos="fade-right">
+        <img src="img/banner-2.png" alt="">
+      </div>
+      <div class="banner-2-content d-flex align-item-center my-auto " data-aos="fade-left">
+        <p class=""><b> <span class="font-bold font-size-20"> FAITHFUL ACCOUNTABLE TEACHABLE</span> </b> <span
+            class="font-light font-size-16"> is
+            simply dummy text of the printing and typesetting industry.
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in reprehenderit
+            in
+            voluptate velit esse cillum dolore eu fugiat.</span></p>
+      </div>
     </div>
   </div>
 
@@ -354,8 +345,9 @@
 
 
   <script src="custom.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script>AOS.init();</script>
 </body>
 
 </html>

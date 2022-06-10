@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <title>DTF</title>
@@ -62,7 +63,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <img class="hand pe-5" onclick="sidenavopener()" id="iconChange" src="img/menu-icon.svg" alt="">
-                    <a class=" logo-main navbar-brand" href="#"> <img src="img\logo.svg" alt="#"></a>
+                    <a class=" logo-main navbar-brand" href="index.html"> <img src="img\logo.svg" alt="#"></a>
                     <form class="d-flex ms-auto position-relative outline-none">
                         <input class=" search-bar" type="search" placeholder="Search" aria-label="Search">
                         <button class=" search-bt position-absolute" type="submit"><img src="img/search-icon.svg"
@@ -86,21 +87,21 @@
 
     <!-- second banner -->
 
-    <div class="container d-flex flex-row my-5 position-relative ">
-        <div class="banner-2">
+    <div class="container-fluid">
+        <div class="container d-flex flex-row my-5 align-items-center position-relative ">
+          <div class="banner-2" data-aos="fade-right">
             <img src="img/banner-2.png" alt="">
-        </div>
-        <div class="banner-2-content d-flex align-item-center my-auto ">
+          </div>
+          <div class="banner-2-content d-flex align-item-center my-auto " data-aos="fade-left" >
             <p class=""><b> <span class="font-bold font-size-20"> FAITHFUL ACCOUNTABLE TEACHABLE</span> </b> <span
-                    class="font-light font-size-16"> is
-                    simply dummy text of the printing and typesetting industry.
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in
-                    reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat.</span></p>
+                class="font-light font-size-16"> is
+                simply dummy text of the printing and typesetting industry.
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat.</span></p>
+          </div>
         </div>
-    </div>
+      </div>
 
     <!-- hot items -->
 
@@ -184,48 +185,6 @@
 
     </div>
 
-    <!-- our collection cards -->
-
-    <div class="container-flued text-center mt-5 "> <span class="items-heading center-items-heading"> Our Collocations</span></div>
-
-    <div class="card-group collection-cards container-flued m-5 ">
-
-        <div class="card coll-hoodies coll-card mx-3 d-flex justify-content-center  p-5">
-            <img src="img/coll-hoodies.png" class="w-auto" alt="#">
-            <div class="overlay">
-                <span class=" coll-card-text-over"> Hoodies </span>
-            </div>
-        </div>
-
-        <div class="card coll-tees coll-card mx-3 d-flex justify-content-center p-5">
-            <img src="img/coll-tees.png" class="w-auto" alt="#">
-            <div class="overlay">
-                <span class=" coll-card-text-over"> Tees </span>
-            </div>
-        </div>
-
-        <div class="card coll-polo coll-card mx-3 d-flex justify-content-center  p-5">
-            <img src="img/coll-polo.png" class="w-auto" alt="#">
-            <div class="overlay">
-                <span class=" coll-card-text-over"> Polo </span>
-            </div>
-        </div>
-
-        <div class="card coll-hats coll-card mx-3 d-flex justify-content-center  p-5">
-            <img src="img/coll-hats.png" class="w-auto" alt="#">
-            <div class="overlay">
-                <span class=" coll-card-text-over"> Hats </span>
-            </div>
-        </div>
-
-        <div class="card coll-accessories coll-card mx-3 d-flex justify-content-center  p-5">
-            <img class="w-auto" src="img/coll-accessories.png" alt="#">
-            <div class="overlay">
-                <span class=" coll-card-text-over"> Accessories </span>
-            </div>
-        </div>
-
-    </div>
         <!-- fotter -->
 
         <footer class=" footer mt-5">
@@ -318,8 +277,11 @@
 
 
 
-    <script src="custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+<script src="custom.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>AOS.init();</script>
 
 </body>
 
