@@ -9,8 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-  <title>DTF</title>
+  <link rel="icon" type="image/x-icon" href="img/logo-favicon.svg">
+  <title>FAT</title>
 </head>
 
 <body>
@@ -56,26 +56,21 @@
 
     <!-- Header -->
 
-    <nav class=" header navbar shadow-sm fixed-top navbar-expand-lg navbar-light  ">
-      <div class="container-fluid margin-x-4 ">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <img class="hand pe-5" onclick="sidenavopener()" id="iconChange" src="img/menu-icon.svg" alt="">
-          <a class=" logo-main navbar-brand" href="#"> <img src="img\logo.svg" alt="#"></a>
-          <form class="d-flex ms-auto position-relative outline-none">
+    <nav class=" header-section navbar shadow-sm fixed-top bg-light  ">
+      <div class="container-fluid margin-x-4 header-wrapper ">
+          <img class="hand menu-icon" onclick="sidenavopener()" id="iconChange" src="img/menu-icon.svg" alt="">
+          <a class=" logo-main navbar-brand" href="index.html"> <img src="img\logo.svg" alt="#"></a>
+          <form class=" search-bar-wrapper d-flex ms-auto position-relative outline-none">
             <input class=" search-bar" type="search" placeholder="Search" aria-label="Search">
             <button class=" search-bt position-absolute" type="submit"><img src="img/search-icon.svg" alt=""></button>
           </form>
-          <div class="d-flex ">
+          <div class="d-flex icon-wrapper ">
+            <div class="search-icon d-none hand ms-2 my-auto cursor-pointer "><img src="img/search-icon.svg" alt="#"></div>
             <div class="heart-icon hand ms-4 my-auto cursor-pointer "><img src="img/heart-icon.svg" alt="#"></div>
             <div class="cart-icon hand ms-4 my-auto"><a href="my-cart.html"><img src="img/cart-icon.svg"
                   alt="cart-icon"></a></div>
             <div class="user-img hand ms-4 my-auto" style="height:40px; width:40px;"> </div>
           </div>
-        </div>
       </div>
     </nav>
     <!-- banner -->
@@ -87,19 +82,19 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div> -->
-        <div class="carousel-inner">
-          <div class="carousel-item active position-relative w-100 h-auto">
+        <section class="banner-section">
+          <div class=" position-relative d-flex w-100 h-auto">
             <div>
               <img src="img/banner.png" class="w-100" alt="...">
             </div>
-            <div class="carousel-caption text-start">
-              <h1 class="banner-text">
+            <div class=" banner-caption text-start position-absolute">
+              <h1 class="banner-text display-6">
                 <span class="font-light">Living To</span> <br>
                 <span class="font-bold">Make A Difference.</span>
               </h1>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </section>
 
@@ -111,9 +106,9 @@
   </div>
 
   <!-- our collection cards -->
-  <div class="card-group collection-cards container-flued m-5 ">
+  <div class="card-group coll-card-wrapper lg collection-cards container-flued m-5 ">
 
-    <div class="card coll-hoodies coll-card mx-3 d-flex justify-content-center  p-5">
+    <div class="card p-4 coll-hoodies coll-card mx-3 d-flex justify-content-center  ">
       <img src="img/coll-hoodies.png" class="w-auto" alt="#">
       <a href="hoodies-page.html">
         <div class="overlay">
@@ -122,28 +117,28 @@
       </a>
     </div>
 
-    <div class="card coll-tees coll-card mx-3 d-flex justify-content-center p-5">
+    <div class="card p-4 coll-tees coll-card mx-3 d-flex justify-content-center ">
       <img src="img/coll-tees.png" class="w-auto" alt="#">
       <div class="overlay">
         <span class=" coll-card-text-over"> Tees </span>
       </div>
     </div>
 
-    <div class="card coll-polo coll-card mx-3 d-flex justify-content-center  p-5">
+    <div class="card p-4 coll-polo coll-card mx-3 d-flex justify-content-center  ">
       <img src="img/coll-polo.png" class="w-auto" alt="#">
       <div class="overlay">
         <span class=" coll-card-text-over"> Polo </span>
       </div>
     </div>
 
-    <div class="card coll-hats coll-card mx-3 d-flex justify-content-center  p-5">
+    <div class="card p-4 coll-hats coll-card mx-3 d-flex justify-content-center  ">
       <img src="img/coll-hats.png" class="w-auto" alt="#">
       <div class="overlay">
         <span class=" coll-card-text-over"> Hats </span>
       </div>
     </div>
 
-    <div class="card coll-accessories coll-card mx-3 d-flex justify-content-center  p-5">
+    <div class="card p-4 coll-accessories coll-card mx-3 d-flex justify-content-center  ">
       <img class="w-auto" src="img/coll-accessories.png" alt="#">
       <div class="overlay">
         <span class=" coll-card-text-over"> Accessories </span>
@@ -160,8 +155,8 @@
         <img src="img/banner-2.png" alt="">
       </div>
       <div class="banner-2-content d-flex align-item-center my-auto " data-aos="fade-left">
-        <span class=""><b> <span class="font-bold font-size-20"> FAITHFUL ACCOUNTABLE TEACHABLE</span> </b> <span
-            class="font-light font-size-16"> is
+        <span class=" bold-fat-text"> <span class=" font-size-20"> FAITHFUL ACCOUNTABLE TEACHABLE</span><span
+            class="font-light  font-size-16"> is
             simply dummy text of the printing and typesetting industry.
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in reprehenderit
@@ -263,7 +258,7 @@
         <img class="footer-logo" src="img/logo.svg" alt="">
       </div>
       <div class="vertical-line"></div>
-      <div class="  d-flex align-items-center justify-content-center flex-column border-right">
+      <div class=" social-icons-wrapper d-flex align-items-center justify-content-center flex-column border-right">
         <span class="social-icons">
           <img class="" src="img/facebook-icon.svg" alt="">
         </span>
@@ -318,15 +313,14 @@
       <div class="">
         <p class="font-size-16 font-normal">We Accept</p>
         <div class=" row ">
-          <img class=" pay-meth-card col-4 " src="img/pay-meth-1.png" alt="">
-          <img class=" pay-meth-card col-4 " src="img/pay-meth-2.png" alt="">
-          <img class=" pay-meth-card col-4 " src="img/pay-meth-3.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-1.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-2.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-3.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-4.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-5.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-6.png" alt="">
         </div>
-        <div class=" row ">
-          <img class=" pay-meth-card col-4 " src="img/pay-meth-4.png" alt="">
-          <img class=" pay-meth-card col-4 " src="img/pay-meth-5.png" alt="">
-          <img class=" pay-meth-card col-4 " src="img/pay-meth-6.png" alt="">
-        </div>
+        
       </div>
     </div>
     <div class="container-fluid text-center text-white">

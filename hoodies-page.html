@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <header>
-        <!-- sidenav display-none -->
+      <header>
+    <!-- sidenav menu -->
 
-        <div id="col-sidenav" class=" sidenav  side-menu side-menu-bg position-fixed zindex-dropdown:1000; w-25"
+    <div id="col-sidenav" class=" sidenav  side-menu side-menu-bg position-fixed zindex-dropdown:1000; w-25"
       style="z-index:1000;">
       <div class=" d-flex flex-column custom-menu">
         <a href="#about" class="menu-item ">
@@ -54,33 +54,28 @@
       </div>
     </div>
 
-        <!-- Header -->
-        
-        <nav id="header" class=" header navbar shadow-sm fixed-top navbar-expand-lg navbar-light  ">
-            <div class="container-fluid margin-x-4 ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <img class="hand pe-5" onclick="sidenavopener()" id="iconChange" src="img/menu-icon.svg" alt="">
-                    <a class=" logo-main navbar-brand" href="index.html"> <img src="img\logo.svg" alt="#"></a>
-                    <form class="d-flex ms-auto position-relative outline-none">
-                        <input class=" search-bar" type="search" placeholder="Search" aria-label="Search">
-                        <button class=" search-bt position-absolute" type="submit"><img src="img/search-icon.svg"
-                                alt=""></button>
-                    </form>
-                    <div class="d-flex ">
-                        <div class="heart-icon hand ms-4 my-auto cursor-pointer "><img src="img/heart-icon.svg" alt="#">
-                        </div>
-                        <div class="cart-icon hand ms-4 my-auto"><a href="my-cart.html"><img src="img/cart-icon.svg" alt="cart-icon"></a></div>
-                        <div class="user-img hand ms-4 my-auto" style="height:40px; width:40px;"> </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <!-- Header -->
+
+    <nav class=" header-section navbar shadow-sm fixed-top bg-light  ">
+      <div class="container-fluid margin-x-4 header-wrapper ">
+          <img class="hand menu-icon" onclick="sidenavopener()" id="iconChange" src="img/menu-icon.svg" alt="">
+          <a class=" logo-main navbar-brand" href="index.html"> <img src="img\logo.svg" alt="#"></a>
+          <form class=" search-bar-wrapper d-flex ms-auto position-relative outline-none">
+            <input class=" search-bar" type="search" placeholder="Search" aria-label="Search">
+            <button class=" search-bt position-absolute" type="submit"><img src="img/search-icon.svg" alt=""></button>
+          </form>
+          <div class="d-flex icon-wrapper ">
+            <div class="search-icon d-none hand ms-2 my-auto cursor-pointer "><img src="img/search-icon.svg" alt="#"></div>
+            <div class="heart-icon hand ms-4 my-auto cursor-pointer "><img src="img/heart-icon.svg" alt="#"></div>
+            <div class="cart-icon hand ms-4 my-auto"><a href="my-cart.html"><img src="img/cart-icon.svg"
+                  alt="cart-icon"></a></div>
+            <div class="user-img hand ms-4 my-auto" style="height:40px; width:40px;"> </div>
+          </div>
+      </div>
+    </nav>
+    <!-- banner -->
+  </header>
+
 
     <!-- hoodies item -->
     <div class="container margin-t126 "> <span class="items-heading"> Hoodies <div
@@ -170,82 +165,81 @@
     <!-- fotter -->
 
     <footer class=" footer mt-5">
-        <div class=" footer-content d-flex justify-content-between flex-row py-5 px-5">
-            <div class=" d-flex align-items-center justify-content-center border-right">
-                <img class="footer-logo" src="img/logo.svg" alt="">
-            </div>
-            <div class="vertical-line"></div>
-            <div class="  d-flex align-items-center justify-content-center flex-column border-right">
-                <span class="social-icons">
-                    <img class="" src="img/facebook-icon.svg" alt="">
-                </span>
-                <span class="social-icons">
-                    <img class="" src="img/instagram-icon.svg" alt="">
-                </span>
-                <span class="social-icons">
-                    <img class="" src="img/twiter-icon.svg" alt="">
-                </span>
-            </div>
-            <div class="vertical-line"></div>
-            <div class=" border-right d-flex  flex-column ">
-                <ul>
-                    <div class="font-size-16 font-normal">
-                        Informations
-                    </div>
-                    <li class="font-size-14 font-light pt-1">
-                        Refund Policy
-                    </li>
-                    <li class="font-size-14 font-light pt-1">
-                        Privacy Policy
-                    </li>
-                    <li class="font-size-14 font-light pt-1">
-                        Term & Conditions
-                    </li>
-                    <li class="font-size-14 font-light pt-1">
-                        Support
-                    </li>
-                    <li class="font-size-14 font-light pt-1">
-                        Contact Us
-                    </li>
-                </ul>
-            </div>
-            <div class="vertical-line"></div>
-            <div class=" border-right ">
-                <ul>
-                    <div class="font-size-16 font-normal">
-                        Address
-                    </div>
-                    <li class="font-size-14 font-light pt-1 pb-2 border-bottom-secondary">
-                        86 Cunnery Rd, Manaton,
-                        United Kingdom, TQ13 5GP
-                    </li>
-                    <li class="font-size-16 font-normal mt-3">
-                        Contact
-                    </li>
-                    <li class="font-size-14 font-light pt-1">
-                        Phone number: 078 6827 2117
-                </ul>
-            </div>
-            <div class="vertical-line"></div>
-            <div class="">
-                <p class="font-size-16 font-normal">We Accept</p>
-                <div class=" row ">
-                    <img class=" pay-meth-card col-4 " src="img/pay-meth-1.png" alt="">
-                    <img class=" pay-meth-card col-4 " src="img/pay-meth-2.png" alt="">
-                    <img class=" pay-meth-card col-4 " src="img/pay-meth-3.png" alt="">
-                </div>
-                <div class=" row ">
-                    <img class=" pay-meth-card col-4 " src="img/pay-meth-4.png" alt="">
-                    <img class=" pay-meth-card col-4 " src="img/pay-meth-5.png" alt="">
-                    <img class=" pay-meth-card col-4 " src="img/pay-meth-6.png" alt="">
-                </div>
-            </div>
+    <div class=" footer-content d-flex justify-content-between flex-row py-5 px-5">
+      <div class=" d-flex align-items-center justify-content-center border-right">
+        <img class="footer-logo" src="img/logo.svg" alt="">
+      </div>
+      <div class="vertical-line"></div>
+      <div class=" social-icons-wrapper d-flex align-items-center justify-content-center flex-column border-right">
+        <span class="social-icons">
+          <img class="" src="img/facebook-icon.svg" alt="">
+        </span>
+        <span class="social-icons">
+          <img class="" src="img/instagram-icon.svg" alt="">
+        </span>
+        <span class="social-icons">
+          <img class="" src="img/twiter-icon.svg" alt="">
+        </span>
+      </div>
+      <div class="vertical-line"></div>
+      <div class=" border-right d-flex  flex-column ">
+        <ul>
+          <div class="font-size-16 font-normal">
+            Informations
+          </div>
+          <li class="font-size-14 font-light pt-1">
+            Refund Policy
+          </li>
+          <li class="font-size-14 font-light pt-1">
+            Privacy Policy
+          </li>
+          <li class="font-size-14 font-light pt-1">
+            Term & Conditions
+          </li>
+          <li class="font-size-14 font-light pt-1">
+            Support
+          </li>
+          <li class="font-size-14 font-light pt-1">
+            Contact Us
+          </li>
+        </ul>
+      </div>
+      <div class="vertical-line"></div>
+      <div class=" border-right ">
+        <ul>
+          <div class="font-size-16 font-normal">
+            Address
+          </div>
+          <li class="font-size-14 font-light pt-1 pb-2 border-bottom-secondary">
+            86 Cunnery Rd, Manaton,
+            United Kingdom, TQ13 5GP
+          </li>
+          <li class="font-size-16 font-normal mt-3">
+            Contact
+          </li>
+          <li class="font-size-14 font-light pt-1">
+            Phone number: 078 6827 2117
+        </ul>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="">
+        <p class="font-size-16 font-normal">We Accept</p>
+        <div class=" row ">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-1.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-2.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-3.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-4.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-5.png" alt="">
+          <img class=" pay-meth-card col-4 col-md-6 col-sm-12 " src="img/pay-meth-6.png" alt="">
         </div>
-        <div class="container-fluid text-center text-white">
-            <hr>
-            <p class="font-size-10 font-light pb-4 mb-0">Copyright © 2022 F.A.T. All Rights Reserved</p>
-        </div>
-    </footer>
+        
+      </div>
+    </div>
+    <div class="container-fluid text-center text-white">
+      <hr>
+      <p class="font-size-10 font-light pb-4 mb-0">Copyright © 2022 F.A.T. All Rights Reserved</p>
+    </div>
+  </footer>
 
 
 
